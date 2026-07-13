@@ -648,7 +648,7 @@
         "uuid": "db09bdfa-1c70-4e20-a5d0-43aa4f4aaba9"
       }
     ],
-    "used_designators": "J1,C1-25,TP1-4,R1-10,L1-2,M1,15pF1-2,Y1,#PWR1-33,U1-6",
+    "used_designators": "#PWR6,#PWR31,#PWR35-41,J2-3,R18-20,C10-16,U8,H1-4",
     "variants": []
   },
   "sheets": [
@@ -665,12 +665,20 @@
       "Haptic Motors"
     ],
     [
-      "da9ceb41-dad5-45a3-ab23-44538a46f696",
-      "Wireless"
+      "6476f20e-425f-45f9-95e4-c16fae7c0be1",
+      "I2C multiplexer"
     ],
     [
       "7ebb570c-950d-4a30-a1ad-c6f758445714",
-      "BMS"
+      "Power"
+    ],
+    [
+      "2a531c3d-fa2a-47fb-ae5b-83bedc55f318",
+      "IMU"
+    ],
+    [
+      "55aaf658-3978-46ff-b03e-ea57e83b9510",
+      "Mounting Holes"
     ]
   ],
   "text_variables": {},
