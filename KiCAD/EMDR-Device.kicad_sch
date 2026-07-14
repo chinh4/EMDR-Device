@@ -2194,6 +2194,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ScottoKeebs:Placeholder_Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Switch"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Placeholder_Switch_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2601,6 +2765,18 @@
 		(uuid "0dc19084-c93b-4e52-a22c-2e0f2995d441")
 	)
 	(rectangle
+		(start 234.95 176.53)
+		(end 271.78 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "67153891-8b6e-422d-8948-29bbfe515d2b")
+	)
+	(rectangle
 		(start 234.95 64.77)
 		(end 290.83 133.35)
 		(stroke
@@ -2636,7 +2812,7 @@
 	)
 	(text "Voltage Regulator\n5V -> 3.3V"
 		(exclude_from_sim no)
-		(at 273.558 172.466 0)
+		(at 274.32 173.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2653,6 +2829,16 @@
 			)
 		)
 		(uuid "8966e6dd-7053-4b41-8fb7-c965f78a1edb")
+	)
+	(text "Reset Button"
+		(exclude_from_sim no)
+		(at 265.684 196.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "999b7ca5-94d3-4451-897f-1cfb6a5353a1")
 	)
 	(junction
 		(at 247.65 148.59)
@@ -2714,6 +2900,58 @@
 		(color 0 0 0 0)
 		(uuid "fecfe82a-c2f7-494b-91d1-44fe97ee0f62")
 	)
+	(no_connect
+		(at 195.58 127)
+		(uuid "2dd3df75-929e-483a-9331-0c49da2931a2")
+	)
+	(no_connect
+		(at 195.58 160.02)
+		(uuid "2ea572d5-0daa-4dd1-85eb-d0b9c5a0a1f2")
+	)
+	(no_connect
+		(at 195.58 149.86)
+		(uuid "2f1562ff-4434-431f-b51f-d231a3d56c7b")
+	)
+	(no_connect
+		(at 195.58 129.54)
+		(uuid "3b746da8-a5d4-4bed-9cf3-0ac7c7ef03e0")
+	)
+	(no_connect
+		(at 195.58 157.48)
+		(uuid "5e966495-f1a3-4a56-9c67-ba40600bad7a")
+	)
+	(no_connect
+		(at 165.1 139.7)
+		(uuid "606d6c4e-53fa-4a1c-b968-ed7e409cda7d")
+	)
+	(no_connect
+		(at 165.1 147.32)
+		(uuid "66df4144-39c5-4559-a0cb-9d66110fb3eb")
+	)
+	(no_connect
+		(at 165.1 144.78)
+		(uuid "79836ee8-93df-48d8-bf0c-41ba6d85bc4f")
+	)
+	(no_connect
+		(at 165.1 149.86)
+		(uuid "95a0c711-8cdf-48ef-a61c-2a8e05a433f7")
+	)
+	(no_connect
+		(at 165.1 137.16)
+		(uuid "9c368909-5b9e-432a-b8db-8718c36bdd80")
+	)
+	(no_connect
+		(at 195.58 154.94)
+		(uuid "ab484e9b-e0a1-4fca-a497-8446a32c1d2d")
+	)
+	(no_connect
+		(at 195.58 147.32)
+		(uuid "b72d7145-4249-4e5d-a9e4-e52d509b35fd")
+	)
+	(no_connect
+		(at 195.58 152.4)
+		(uuid "bc0953ab-2d97-4d0c-9eee-0a81f1476972")
+	)
 	(wire
 		(pts
 			(xy 247.65 156.21) (xy 259.08 156.21)
@@ -2753,6 +2991,16 @@
 			(type default)
 		)
 		(uuid "16c9a430-2308-4e98-be3d-a4d2b40adeaa")
+	)
+	(wire
+		(pts
+			(xy 195.58 142.24) (xy 201.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a066ec8-4c87-4076-b4c9-9df5b8ab2f1c")
 	)
 	(wire
 		(pts
@@ -2846,6 +3094,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 139.7) (xy 201.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8fe7d6-7055-4e1c-80cc-36b5bc8c36d4")
+	)
+	(wire
+		(pts
 			(xy 149.86 134.62) (xy 165.1 134.62)
 		)
 		(stroke
@@ -2936,6 +3194,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 186.69) (xy 265.43 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6f5a09-bd69-458d-aeb9-898df6183045")
+	)
+	(wire
+		(pts
+			(xy 242.57 186.69) (xy 248.92 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8409c38-5f19-48ab-bf18-1cba1cf2560d")
+	)
+	(wire
+		(pts
 			(xy 195.58 134.62) (xy 201.93 134.62)
 		)
 		(stroke
@@ -2986,6 +3264,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 154.94) (xy 165.1 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb53f2f3-fbff-42d3-a8ce-5d0d0076d3bd")
+	)
+	(wire
+		(pts
 			(xy 270.51 95.25) (xy 276.86 95.25)
 		)
 		(stroke
@@ -2993,6 +3281,16 @@
 			(type default)
 		)
 		(uuid "d43662b1-5bd6-4cef-806b-59c262113db7")
+	)
+	(wire
+		(pts
+			(xy 158.75 152.4) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2d94ba-1c6f-4856-8082-36a3ec2cd51c")
 	)
 	(wire
 		(pts
@@ -3064,6 +3362,78 @@
 		)
 		(uuid "fee38e12-cc5f-4f75-a41b-ef50dca22b2d")
 	)
+	(global_label "EN"
+		(shape input)
+		(at 242.57 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02a9cf11-10f8-4948-bdf3-a1e7be344ad6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.1053 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INT1"
+		(shape input)
+		(at 158.75 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09702a57-9c7b-46fa-b798-c43766f15683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.6524 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "in{slash}trig_1"
+		(shape input)
+		(at 201.93 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11cddcb7-4317-4bd4-aa09-aa19de8c9dc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4423 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D_N"
 		(shape input)
 		(at 201.93 134.62 0)
@@ -3101,6 +3471,30 @@
 		(uuid "29b367a8-1d32-4eff-9c88-253748cd7c9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.4228 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "in{slash}trig_2"
+		(shape input)
+		(at 201.93 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4450b0bb-aa55-4f58-a420-d8707c4db453")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4423 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,6 +3639,30 @@
 		(uuid "bbd09f8e-ff50-4dc8-91b3-1d256fa71d98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.3282 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INT2"
+		(shape input)
+		(at 158.75 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7979fd5-c0ca-4680-8299-eba360f209fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.6524 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,6 +4015,84 @@
 			(project "EMDR-Device"
 				(path "/db09bdfa-1c70-4e20-a5d0-43aa4f4aaba9"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 186.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a99eafe-83bb-4609-83d1-a05613b29827")
+		(property "Reference" "#PWR034"
+			(at 265.43 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "456f8b71-a0d6-401f-9bce-39b7c5de944a")
+		)
+		(instances
+			(project "EMDR-Device"
+				(path "/db09bdfa-1c70-4e20-a5d0-43aa4f4aaba9"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4233,6 +4729,86 @@
 			(project "EMDR-Device"
 				(path "/db09bdfa-1c70-4e20-a5d0-43aa4f4aaba9"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Switch")
+		(at 254 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dec29a3-7f7c-4219-8295-9f8a70c3f274")
+		(property "Reference" "SW1"
+			(at 254 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 254 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "chinh4thepro:reset_switch_smd_side"
+			(at 254 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 254 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94784851-a284-405b-b6d0-ee6fc6968c72")
+		)
+		(pin "2"
+			(uuid "2d0903a1-1780-448d-828f-2b667f81de56")
+		)
+		(instances
+			(project "EMDR-Device"
+				(path "/db09bdfa-1c70-4e20-a5d0-43aa4f4aaba9"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4951,7 +5527,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "subsheets\\mounting_holes.kicad_sch"
+		(property "Sheetfile" "subsheets/mounting_holes.kicad_sch"
 			(at 389.89 88.2146 0)
 			(hide yes)
 			(show_name no)
