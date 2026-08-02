@@ -1090,6 +1090,7 @@
 		(property "Reference" "TP2"
 			(at 0 -2.25 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1ebcce1a-abfc-4479-aace-1171736537e6")
 			(effects
 				(font
@@ -3529,7 +3530,8 @@
 		(property "Reference" "TP3"
 			(at 0 -2.25 90)
 			(layer "B.SilkS")
-			(uuid "e97d16bf-5f6d-4890-a32e-83112d83bba4")
+			(hide yes)
+			(uuid "7d9cc578-cc96-4265-88a2-56c5477dac71")
 			(effects
 				(font
 					(size 1 1)
@@ -3541,7 +3543,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 90)
 			(layer "B.Fab")
-			(uuid "49cb5d27-312d-4e52-96df-d70b14503fac")
+			(uuid "fa8392c7-ebf1-4315-92bd-e047d4dfd7a9")
 			(effects
 				(font
 					(size 1 1)
@@ -3555,7 +3557,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c27ec4e-ffa1-432c-af4b-ce28e4e16c3f")
+			(uuid "1bf3f1e9-aaa8-4fdd-ad64-d77ebbdb8a4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3571,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b9a7f307-9509-4e1d-b8e4-edd6dd0e2ea4")
+			(uuid "9c9fb09f-23e2-4f1b-b73a-58fba083a85f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +9543,8 @@
 		(property "Reference" "TP4"
 			(at 0 -2.25 90)
 			(layer "B.SilkS")
-			(uuid "666056c8-3091-4742-8f5a-ab7b3dde3b23")
+			(hide yes)
+			(uuid "794929f1-5481-4f2b-919d-7d9f1b90d134")
 			(effects
 				(font
 					(size 1 1)
@@ -9553,7 +9556,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 90)
 			(layer "B.Fab")
-			(uuid "bc68cd7a-4a73-4cc3-88b1-86f366b82115")
+			(uuid "7eaac55a-71f2-4aad-aec9-59616a3214d6")
 			(effects
 				(font
 					(size 1 1)
@@ -9567,7 +9570,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab4fec43-5fdd-46b6-9a8c-ef5657e33e8a")
+			(uuid "c6216cab-9f03-4707-abe1-e6c6c4b4b7a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9584,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9dca8684-c926-437c-9d91-3067e52aced1")
+			(uuid "2aa9d8a0-e6b6-4e7d-9f33-fb71da62151b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,6 +9858,7 @@
 		(property "Reference" "TP1"
 			(at 0 -2.25 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "16b7c279-bea3-497b-b976-6ef0e72aa143")
 			(effects
 				(font
