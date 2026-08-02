@@ -840,15 +840,15 @@
 			(uuid "84cf3bf8-fe5d-43de-9b5f-1097f71f7c88")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Display.3dshapes/ER_OLEDM0.91_1x-I2C.step"
+		(model "${KIPRJMOD}/libraries/step/ssd1306_oled_screen_128x32_i2c_version.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -17.65 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -8189,16 +8189,6 @@
 		(path "/da560ea1-4fb9-42cf-bb0a-897cc7e699b2")
 		(sheetname "/")
 		(sheetfile "EMDR-Device.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "12" "13" "5" "6" "9" "10" "15" "16" "22" "23" "32" "33" "34"
-					"35" "3" "2" "48" "1" "11" "49" "14" "50" "51" "52" "53" "47" "36" "37"
-					"38" "39" "40" "41" "42" "43" "44" "45" "46" "4" "7" "21" "31" "30"
-					"17" "18" "19" "20" "24" "25" "26" "27" "28" "29"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8999,7 +8989,7 @@
 			(uuid "32d291e1-00f8-4e0e-a5ea-9fbee667b7b7")
 		)
 		(zone
-			(layers "F.Cu" "B.Cu")
+			(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
 			(uuid "7bb92926-d7a4-4fbc-b1e7-71c89a3c02bd")
 			(name "Antenna")
 			(hatch full 0.508)
@@ -9030,7 +9020,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-C6-MINI-1.step"
+		(model "${KIPRJMOD}/libraries/step/ESP32-C6-MINI-1-N4.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9038,7 +9028,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10063,14 +10053,6 @@
 		(path "/eefeb60f-8e0e-4e3a-b67a-5e465849bfee")
 		(sheetname "/")
 		(sheetfile "EMDR-Device.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
-					"A6" "B6"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10473,7 +10455,7 @@
 			(uuid "d66cc94f-d17d-4608-9236-7476fee9c66e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A.step"
+		(model "${KIPRJMOD}/libraries/step/KH-TYPE-C-16P--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10481,7 +10463,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
